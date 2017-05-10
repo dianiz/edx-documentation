@@ -12,4 +12,5 @@ learner groups, and moderating discussions.
    :maxdepth: 2
 
    discussions
+   set_up_divided_discussions
    discussion_guidance_moderators
