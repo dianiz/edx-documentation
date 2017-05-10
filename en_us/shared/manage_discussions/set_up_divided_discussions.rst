@@ -5,8 +5,9 @@
 About Divided Discussions
 ##############################
 
-This section provides information about setting up discussions that are divided
-by learner groups within your course.
+This section provides information about setting up discussions that are
+divided by learner groups (such as cohorts or enrollment tracks) within your
+course.
 
 .. contents::
   :local:
