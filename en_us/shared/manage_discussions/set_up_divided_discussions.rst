@@ -29,13 +29,24 @@ What are Divided Discussions?
 In divided discussion topics, the posts, responses, and comments within the
 discussion are separated so that learners participate in the discussion only
 with other members of the same group (either the same cohort or the same
-enrollment track). Divided discussion topics are still visible to all learners
-in the course, unless you have also applied visibility settings to a
-discussion component in Studio.
+enrollment track).
 
-If you want to make specific content-specific discussion topics visible only
-to certain groups, you can change the visibility settings on the discussion
-components. For more details, see :ref:`Cohorted Courseware Overview`.XXXXXX
+Divided discussion topics are visible to all learners but the posts, responses,
+and comments within these topics are divided so that they are visible only to
+members of the same group. For example, you have two enrollment tracks in your
+course ("Audit" and "Verified"). If you choose to divide discussions based on
+enrollment track groups, and specify that a course-wide discussion topic called
+"Assignments" is divided, then although all learners see the topic, learners in
+the "Audit" track interact only with posts, responses and comments from other
+learners in the "Audit" track, and learners in the "Verified" track interact
+only with posts, responses and comments from learners in the "Verified" track.
+
+Posts, responses, and comments within unified discussion topics
+are visible to all learners in the course, regardless of cohort.
+
+To make specific content-specific discussion topics visible only to certain
+groups, you can change the visibility settings on the discussion components. For
+more details, see XXXXXX
 
 
 ******************************
@@ -50,11 +61,7 @@ unified and shared by all learners.
    track) by which to divide discussions, even if your course both uses
    cohorts and has multiple enrollment tracks.
 
-Discussion topics that are divided are visible to all learners but the posts,
-responses, and comments within them are divided so that they are visible only
-to members of the same group. Posts, responses, and comments within unified
-discussion topics are visible to all learners in the course, regardless of
-cohort.
+
 
 By default, both :ref:`course-wide discussion topics<Create CourseWide
 Discussion Topics>` and :ref:`content-specific discussion topics<Create
@@ -162,7 +169,7 @@ steps.
    The list of course-wide discussion topics is updated to show which topics
    are divided by cohort, and which are unified.
 
-   .. image:: ../../../../shared/images/CohortDiscussionsCourseWide.png
+   .. image:: ../../../shared/images/CohortDiscussionsCourseWide.png
      :alt: Two course-wide discussion topics in list, one cohorted and one
        unified.
      :width: 400
@@ -208,7 +215,7 @@ divided by cohort instead of unified, follow these steps.
 
 #. Select **Specify whether discussion topics are divided by cohort**.
 
-   .. image:: ../../../../shared/images/CohortDiscussionsSpecifyLink.png
+   .. image:: ../../../shared/images/CohortDiscussionsSpecifyLink.png
      :alt: The link in the UI to specify whether content specific discussion
         topics are divided by cohort.
      :width: 800
@@ -220,7 +227,7 @@ divided by cohort instead of unified, follow these steps.
 
 3. Select **Always cohort content-specific discussion topics**.
 
-   .. image:: ../../../../shared/images/CohortDiscussionsAlwaysCohort.png
+   .. image:: ../../../shared/images/CohortDiscussionsAlwaysCohort.png
      :alt: Content specific discussion topics controls with the "Always cohort
         content specific discussion topics" option selected.
      :width: 500
@@ -266,7 +273,7 @@ divided by cohort, follow these steps.
 
 #. Select **Specify whether discussion topics are divided by cohort**.
 
-   .. image:: ../../../../shared/images/CohortDiscussionsSpecifyLink.png
+   .. image:: ../../../shared/images/CohortDiscussionsSpecifyLink.png
     :alt: The link in the UI to specify whether content specific discussion
         topics are divided by cohort.
     :width: 800
@@ -285,7 +292,7 @@ divided by cohort, follow these steps.
 #. Select the checkbox next to each content-specific discussion topic that you
    want to divide by cohort.
 
-   .. image:: ../../../../shared/images/CohortDiscussionsCohortSelected.png
+   .. image:: ../../../shared/images/CohortDiscussionsCohortSelected.png
      :alt: Content specific discussion topics controls with the "Cohort
       selected content specific discussion topics" option selected.
      :width: 500
