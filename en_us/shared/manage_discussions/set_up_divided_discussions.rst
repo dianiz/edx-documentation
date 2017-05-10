@@ -1,9 +1,9 @@
 
 .. _About Divided Discussions:
 
-##############################
-About Divided Discussions
-##############################
+###################################
+About Divided Discussion Topics
+###################################
 
 This section provides information about setting up discussions that are
 divided by learner groups (such as cohorts or enrollment tracks) within your

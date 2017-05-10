@@ -1,1 +1,1 @@
-.. include:: ../../../shared/manage_live_course/discussions.rst
+.. include:: ../../../shared/manage_discussions/discussions.rst
