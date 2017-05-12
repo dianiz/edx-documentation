@@ -93,30 +93,25 @@ topics.
 Course-Wide Discussion Topics and Groups
 ***********************************************
 
-When you first :ref:`create a course-wide discussion topic<Create CourseWide
-Discussion Topics>`, the topic is unified, and all learners in the course can
-post, read, respond, and comment in the topic without regard to the group that
-they belong to, either a cohort or an enrollment track group.
+:ref:`Course-wide discussion topics<Create CourseWide Discussion Topics>` are
+by default unified; all learners interact with each other. In some instances,
+however, you might decide that it makes sense to divide some course-wide
+discussion topics by group, so that only members within each group see and
+respond to posts made by other learners in the same group.
 
-You can configure course-wide topics in your course so that they are divided
-by group instead of being unified. For step-by-step instructions for
-specifying whether a course-wide discussion topic is unified or divided, see
-:ref:`Specify Whether CourseWide Discussion Topics are Cohorted` and XXXXXXX.
+For step-by-step instructions for specifying whether a course-wide discussion
+topic is unified or divided, see :ref:`Specify Whether CourseWide Discussion
+Topics are Cohorted` and XXXXXXX.
+
 
 =====================================================
 Example: Dividing Some Course-Wide Discussion Topics
 =====================================================
 
-Course-wide discussion topics are by default unified; all learners interact
-with each other. In some instances, however, you might decide that it makes
-sense to divide some course-wide discussion topics by group, so that only
-members within each group see and respond to posts made by other learners in
-the same group.
-
 In this example, you run a course that has two enrollment tracks: "Free" and
 "Certificate". You create differentiated content based on enrollment track, so
-that although learners in each track have a complete course experience, they
-have different assignments and projects.
+that learners in each track have a complete course experience, but with
+different assignments and projects.
 
 You add three new course-wide discussion topics, so that in addition to the
 system-supplied General topic, you have a total of four course-wide
@@ -128,14 +123,19 @@ discussion topics.
 * Final Project Ideas
 
 In the General and Course Announcement topics, you and other course team
-members intend to add posts and that are relevant for all learners in your course,
-regardless of what enrollment track they are in. Discussions in these topics
-are appropriate for a unified learner audience.
+members intend to add posts and that are relevant for all learners in your
+course, regardless of what enrollment track they are in. Discussions in these
+topics are appropriate for a unified learner audience.
 
-However, the Assignment FAQs and Final Project Ideas topics should be divided
-based on enrollment track, because the assignments and final projects that
-learners experience will differ based on whether they are in the audit track
-or the verified track.
+However, you want the Assignment FAQs and Final Project Ideas topics to be
+divided based on enrollment track, because the assignments and final projects
+that learners experience will differ based on whether they are in the audit
+track or the verified track. Although all learners see course-wide discussion
+topics called "Assignment FAQs" and "Final Project Ideas", discussions within
+these topics are divided. Learners in the "Free" track only interact in
+discussions with other "Free" track learners, and learners in the
+"Certificate" track only interact in discussions with other "Certificate"
+learners.
 
 For information about specifying
 whether course-wide discussion topics are divided by cohort, see :ref:`Specify
