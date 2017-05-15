@@ -15,8 +15,6 @@ course.
 
 For overview information about discussions in a course, see :ref:`Discussions`.
 
-XXXXXXXX
-
 For information about using cohorts in a course and managing discussions that
 are divided by cohort, see :ref:`Cohorts Overview` and :ref:`Moderating
 Discussions for Cohorts`.
@@ -43,10 +41,12 @@ Discussion topics that are not divided are unified. All learners in the course
 can see and respond to posts, responses, and comments from any other learner
 in the course.
 
-
-To make specific content-specific discussion topics visible only to certain
-groups, you can change the visibility settings on the discussion components. For
-more details, see XXXXXX
+You can choose another method of providing segregated discussion experiences
+for learners in your course. Instead of dividing discussions by group, you can
+add muultiple discussion components and use visibility settings to make each
+discussion component visible only to a specific group of learners. With this
+method, you are not limited to choose to group discussions only by one type of
+group. For more information, see XXXXXX
 
 
 ******************************
