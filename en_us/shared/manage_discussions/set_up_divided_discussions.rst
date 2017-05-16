@@ -118,11 +118,10 @@ Under **Content-Specific Discussion Topics** you select **Divide selected
 content-specific discussion topics**, but do not select any discussion topics.
 
 In Studio, in each unit where you have created differentiated content for
-learners in each enrollment track, you add two discussion components. You give
-each discussion component an appropriate display name, and use the visibility
-settings to make one available only to learners in the "Free" enrollment
-track, and the other available only to learners in the "Certificate"
-enrollment track.
+learners in each enrollment track, you add two discussion components. You use
+the visibility settings to make one available only to learners in the "Free"
+enrollment track, and the other available only to learners in the
+"Certificate" enrollment track.
 
 You test the course to make sure that learners in each track see the intended
 content, using the "View As" options in the LMS to view the content first as a
@@ -168,38 +167,6 @@ topics.
 * :ref:`Content Specific Discussion Topics and Cohorts`
 * :ref:`Specify that All ContentSpecific Discussion Topics are Divided`
 * :ref:`Specify Some ContentSpecific Discussion Topics as Divided`
-
-
-
-
-.. _Specify Group Type for Dividing Discussions:
-
-**********************************************************
-Specify The Group Type for Dividing Discussions
-**********************************************************
-
-In courses where either cohorts or multiple enrollment tracks are enabled, you
-see options to divide discussion topics based on the available group types.
-
-.. note:: You can choose only one group type by which to divide discussions,
-   even if your course both uses cohorts and has multiple enrollment tracks.
-
-The group type that you choose for dividing discussions is used to divide all
-discussion topics in the course, both course-wide and content-specific.
-
-To specify the group type to use for dividing discussions, follow these steps.
-
-#. In the LMS, select **Instructor**, then select **Discussions**.
-
-#. Under **Specify whether discussion topics are divided**, select the option
-   to use for dividing discussion topics. By default, discussions are not
-   divided, and **Not Divided** is selected.
-
-   After you specify the group type for dividing discussions, you see the
-   lists of existing course-wide discussion topics and content-specific
-   discussion topics.
-
-   For information about specifying
 
 
 
