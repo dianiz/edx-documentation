@@ -24,10 +24,10 @@ Discussions for Cohorts`.
 What are Divided Discussions?
 ******************************
 
-Divided discussion topics are visible to all learners, but the posts, responses,
-and comments within these topics are divided so that learners participate in the
-discussion only with other members of the same group (either the same cohort or
-the same enrollment track).
+Divided discussion topics are visible to all learners, but the posts,
+responses, and comments within these topics are divided so that learners
+participate in the discussion only with other members of the same group
+(either the same cohort or the same enrollment track).
 
 For example, you have two enrollment tracks in your course ("Audit" and
 "Verified"). If you choose to divide discussions based on enrollment track
@@ -37,11 +37,85 @@ track interact only with posts, responses, and comments from other learners in
 the "Audit" track, and learners in the "Verified" track interact only with
 posts, responses, and comments from learners in the "Verified" track.
 
-Discussion topics that are not divided are unified. All learners in the course
-can see and respond to posts, responses, and comments from any other learner
-in the course.
+Discussion topics that are not divided are unified, meaning that all learners
+in the course can see and respond to posts, responses, and comments from any
+other learner in the course.
 
-..note::  Another method of providing segregated discussion experiences for learners in your course is to use the visibility settings of discussion components, instead of dividing discussions that all learners share access to. You can add multiple discussion components and use visibility settings to make each discussion component visible only to a specific group of learners. With this method, you are not limited to choosing which single group type by which to group discussions. For more information, see XXXXXX
+If you divide discussions, a good practice is to also apply a naming
+convention so that learners know the audience for the discussion topics before
+they add any posts. For information about naming conventions, see :ref:`Apply
+Naming Conventions to Discussion Topics`.
+
+..note::  Another method of providing segregated discussion experiences for
+  learners in your course is to use the visibility settings of discussion
+  components, instead of dividing discussions that all learners share access
+  to. You can add multiple discussion components and use visibility settings
+  to make each discussion component visible only to a specific group of
+  learners. With this method, you are not limited to choosing which single
+  group type by which to group discussions. For more information, see XXXXXX
+
+
+.. _Example Dividing Discussion Topics Based on Enrollment Track:
+
+***************************************************************
+Example: Dividing Discussion Topics Based on Enrollment Track
+***************************************************************
+
+In this example, you are creating a course that has two enrollment tracks:
+"Free" and "Certificate". You are creating differentiated content based on
+enrollment track, so that learners in each track will have a complete course
+experience, but with different assignments and projects.
+
+You will have to decide whether some or all of course-wide discussion topics
+and content-specific discussion topics are divided based on enrollment track.
+
+As you develop your course, you add three new course-wide discussion topics, so
+that in addition to the system-supplied General topic, you have a total of
+four course-wide discussion topics.
+
+* General
+* Course Announcements
+* Assignment FAQs
+* Final Project Ideas
+
+In the General and Course Announcement topics, you and other course team
+members intend to add posts and that are relevant for all learners in your
+course, regardless of what enrollment track they are in. These topics will not
+be divided, because discussions in these topics are appropriate for a unified
+learner audience.
+
+However, you will divide the Assignment FAQs and Final Project Ideas topics
+based on enrollment track, because the assignments and final projects that
+learners experience will differ based on whether they are in the Free track or
+the Certificate track. Although all learners see course-wide discussion topics
+called "Assignment FAQs" and "Final Project Ideas", discussions within these
+topics are divided. Learners in the "Free" track only interact in discussions
+with other "Free" track learners, and learners in the "Certificate" track only
+interact in discussions with other "Certificate" learners.
+
+You also decide that content-specific discussion topics within the course
+should NOT be divided. Instead, because learners in each enrollment track are
+receiving different content, you decide to use the visibility settings at the
+component level to add discussion components that are available only to the
+group of learners who can access the accompanying content.
+
+In the **Discussions** tab on the instructor dashboard in the LMS, you specify
+that you want to use enrollment tracks as the group type for dividing
+discussions.
+
+After you make your group type selection, lists of the course-wide and
+content-specific discussion topics appear on the **Discussions** page.
+
+Under **Course-Wide Discussion Topics** you select the checkboxes next to the
+"Assignment FAQs" and "Final Project Ideas" topics, and leave the others
+unselected, then click **Save** for that section.
+
+Under **Content-Specific Discussion Topics** you select **Divide selected
+content-specific discussion topics**, but do not select any discussion topics.
+
+In Studio, for each
+
+
 
 
 ******************************
@@ -49,12 +123,13 @@ Setting Up Divided Discussions
 ******************************
 
 In courses where either cohorts or multiple enrollment tracks are enabled, you
-can choose to divide discussion topics based on group, or you can specify that the
-discussion topics are unified and shared by all learners.
+see options to divide discussion topics based on the available group types.
 
-.. note:: You can choose only one group type (either cohorts or enrollment
-   track) by which to divide discussions, even if your course both uses
-   cohorts and has multiple enrollment tracks.
+.. note:: You can choose only one group type by which to divide discussions,
+   even if your course both uses cohorts and has multiple enrollment tracks.
+
+The group type that you choose for dividing discussions is used to divide all
+discussion topics in the course, both course-wide and content-specific.
 
 By default, all :ref:`course-wide discussion topics<Create CourseWide
 Discussion Topics>` and :ref:`content-specific discussion topics<Create
@@ -83,135 +158,113 @@ topics.
 * :ref:`Specify Some ContentSpecific Discussion Topics as Divided`
 
 
-.. _Coursewide Discussion Topics and Groups:
-
-***********************************************
-Course-Wide Discussion Topics and Groups
-***********************************************
-
-:ref:`Course-wide discussion topics<Create CourseWide Discussion Topics>` are
-by default unified; all learners interact with each other. In some instances,
-however, you might decide that it makes sense to divide some course-wide
-discussion topics by group, so that only members within each group see and
-respond to posts made by other learners in the same group.
-
-For step-by-step instructions for specifying whether a course-wide discussion
-topic is unified or divided, see :ref:`Specify Whether CourseWide Discussion
-Topics are Divided` and XXXXXXX.
 
 
-=====================================================
-Example: Dividing Some Course-Wide Discussion Topics
-=====================================================
-
-In this example, you run a course that has two enrollment tracks: "Free" and
-"Certificate". You create differentiated content based on enrollment track, so
-that learners in each track have a complete course experience, but with
-different assignments and projects.
-
-You add three new course-wide discussion topics, so that in addition to the
-system-supplied General topic, you have a total of four course-wide
-discussion topics.
-
-* General
-* Course Announcements
-* Assignment FAQs
-* Final Project Ideas
-
-In the General and Course Announcement topics, you and other course team
-members intend to add posts and that are relevant for all learners in your
-course, regardless of what enrollment track they are in. Discussions in these
-topics are appropriate for a unified learner audience.
-
-However, you want the Assignment FAQs and Final Project Ideas topics to be
-divided based on enrollment track, because the assignments and final projects
-that learners experience will differ based on whether they are in the audit
-track or the verified track. Although all learners see course-wide discussion
-topics called "Assignment FAQs" and "Final Project Ideas", discussions within
-these topics are divided. Learners in the "Free" track only interact in
-discussions with other "Free" track learners, and learners in the
-"Certificate" track only interact in discussions with other "Certificate"
-learners.
-
-For information about specifying whether course-wide discussion topics are
-divided, see :ref:`Specify Whether CourseWide Discussion Topics are Divided`.
-
-If you divide discussions, a good practice is to also apply a naming
-convention so that learners know the audience for the discussion topics before
-they add any posts. For information about naming conventions, see :ref:`Apply
-Naming Conventions to Discussion Topics`.
-
-
-.. _Specify Whether CourseWide Discussion Topics are Divided:
+.. _Specify Group Type for Dividing Discussions:
 
 **********************************************************
-Specify Whether Course-Wide Discussion Topics are Divided
+Specify The Group Type for Dividing Discussions
 **********************************************************
 
-When you :ref:`create course-wide discussion topics<Create CourseWide
-Discussion Topics>`, they are by default unified, and all learners in the
-course can see and respond to posts from all other learners. You can change
-course-wide discussion topics to be divided, so that only members of
-the same cohort can see and respond to each other's posts.
+In courses where either cohorts or multiple enrollment tracks are enabled, you
+see options to divide discussion topics based on the available group types.
 
-To change the cohort settings for course-wide discussion topics, follow these
-steps.
+.. note:: You can choose only one group type by which to divide discussions,
+   even if your course both uses cohorts and has multiple enrollment tracks.
 
-#. In the LMS, select **Instructor**, then select **Cohorts**.
+The group type that you choose for dividing discussions is used to divide all
+discussion topics in the course, both course-wide and content-specific.
 
-#. Select **Specify whether discussion topics are divided by cohort**.
+To specify the group type to use for dividing discussions, follow these steps.
 
-#. In the **Course-Wide Discussion Topics** section, select the checkbox next
-   to each course-wide discussion topic that you want to divide by cohort.
+#. In the LMS, select **Instructor**, then select **Discussions**.
+
+#. Under **Specify whether discussion topics are divided**, select the option
+   to use for dividing discussion topics. By default, discussions are not
+   divided, and **Not Divided** is selected.
+
+   After you specify the group type for dividing discussions, you see the
+   lists of existing course-wide discussion topics and content-specific
+   discussion topics.
+
+   For information about specifying
+
+
+
+
+
+.. _Specify Which Discussion Topics are Divided:
+
+**********************************************************
+Specify Which Discussion Topics are Divided
+**********************************************************
+
+When you create :ref:`course-wide discussion topics<Create CourseWide
+Discussion Topics>` or :ref:`content-specific discussion topics<Create
+ContentSpecific Discussion Topics>, they are by default unified. All learners
+in the course can see and respond to posts from all other learners.
+
+After you have specified the group type for dividing discussions, you can
+specify which of your discussion topics are divided.
+
+To specify that one or more discussion topics are divided, follow these steps.
+
+#. In the LMS, select **Instructor**, then select **Discussions**.
+
+#. Under **Specify whether discussion topics are divided**, select the option
+   to use for dividing discussion topics.
+
+   After you specify the group type for dividing discussions, you see the
+   lists of existing course-wide discussion topics and content-specific
+   discussion topics.
+
+#. Under the section for **Course-Wide Discussion Topics** select the
+   checkbox next to each course-wide discussion topic that you want to divide.
    Clear the checkbox next to each course-wide discussion topic that you want
    to make unified.
 
 #. Select **Save**.
 
    The list of course-wide discussion topics is updated to show which topics
-   are divided by cohort, and which are unified.
+   are divided, and which are unified.
 
-   .. image:: ../../../shared/images/CohortDiscussionsCourseWide.png
-     :alt: Two course-wide discussion topics in list, one cohorted and one
-       unified.
-     :width: 400
 
-For more information about managing discussions that are divided by cohort, see
-:ref:`Moderating Discussions for Cohorts`.
+For information about managing discussions that are divided, see
+XXXXXXX.
 
-.. _Content Specific Discussion Topics and Cohorts:
+
+.. _Content Specific Discussion Topics and Groups:
 
 **********************************************
-Content-Specific Discussion Topics and Cohorts
+Content-Specific Discussion Topics and Groups
 **********************************************
 
-When you enable the cohort feature for a course, and :ref:`create content-specific
-discussion topics<Create ContentSpecific Discussion Topics>` by
-adding discussion components to units in Studio, these content-specific
-discussion topics are by default unified. All learners in the course can see
-and respond to posts from all other learners. You can change content-specific
-discussion topics to be divided by cohort, so that only members of the same
-cohort can see and respond to each other's posts.
+When you :ref:`create content-specific discussion topics<Create
+ContentSpecific Discussion Topics>` by adding discussion components to units
+in Studio, these discussion topics are by default unified. All learners in the
+course can see and respond to posts from all other learners. You can change
+content-specific discussion topics to be divided, so that only members of the
+same group can see and respond to each other's posts.
 
-If you want all content-specific discussion topics in your course to be always
-divided by cohort, follow the steps in the topic :ref:`Specify that All
-ContentSpecific Discussion Topics are Cohorted`.
+If you want all content-specific discussion topics that you add in your course
+to be always divided, follow the steps in the topic :ref:`Specify that All
+ContentSpecific Discussion Topics are Divided`.
 
-If you want only some content-specific discussion topics to be divided by
-cohorts, following the steps in the topic :ref:`Specify Some ContentSpecific
-Discussion Topics as Cohorted`.
+If you want only some content-specific discussion topics to be divided,
+following the steps in the topic :ref:`Specify Some ContentSpecific Discussion
+Topics as Divided`.
 
-.. _Specify that All ContentSpecific Discussion Topics are Cohorted:
+.. _Specify that All ContentSpecific Discussion Topics are Divided:
 
 *****************************************************************
-Specify that All Content-Specific Discussion Topics are Cohorted
+Specify that All Content-Specific Discussion Topics are Divided
 *****************************************************************
 
 When you first :ref:`add content-specific topics<Create ContentSpecific
 Discussion Topics>` in your course, by default they are unified.
 
 If you want all content-specific discussion topics in your course to be
-divided by cohort instead of unified, follow these steps.
+divided, follow these steps.
 
 #. In the LMS, select **Instructor**, then select **Cohorts**.
 
