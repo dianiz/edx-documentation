@@ -61,12 +61,12 @@ Naming Conventions to Discussion Topics`.
 Example: Dividing Discussion Topics Based on Enrollment Track
 ***************************************************************
 
-In this example, you are creating a course that has two enrollment tracks:
-"Free" and "Certificate". You are creating differentiated content based on
+In this example, you are developing a course that has two enrollment tracks:
+"Free" and "Certificate". You plan to create differentiated content based on
 enrollment track, so that learners in each track will have a complete course
 experience, but with different assignments and projects.
 
-You will have to decide whether some or all of course-wide discussion topics
+You will need to decide whether some or all of course-wide discussion topics
 and content-specific discussion topics are divided based on enrollment track.
 
 As you develop your course, you add three new course-wide discussion topics, so
@@ -78,26 +78,30 @@ four course-wide discussion topics.
 * Assignment FAQs
 * Final Project Ideas
 
-In the General and Course Announcement topics, you and other course team
-members intend to add posts and that are relevant for all learners in your
-course, regardless of what enrollment track they are in. These topics will not
-be divided, because discussions in these topics are appropriate for a unified
+In the "General" and "Course Announcement" topics, you and other course team
+members intend to add posts that are relevant for all learners in your course,
+regardless of what enrollment track they are in. You will not divide these
+topics, because discussions in these topics are appropriate for a unified
 learner audience.
 
-However, you will divide the Assignment FAQs and Final Project Ideas topics
-based on enrollment track, because the assignments and final projects that
-learners experience will differ based on whether they are in the Free track or
-the Certificate track. Although all learners see course-wide discussion topics
-called "Assignment FAQs" and "Final Project Ideas", discussions within these
-topics are divided. Learners in the "Free" track only interact in discussions
-with other "Free" track learners, and learners in the "Certificate" track only
-interact in discussions with other "Certificate" learners.
+However, you will divide the "Assignment FAQs" and "Final Project Ideas"
+topics based on enrollment track, because the assignments and final projects
+that learners experience will differ based on whether they are enrolled in the
+"Free" track or the "Certificate" track.
+
+Although all learners see course-wide discussion topics called "Assignment
+FAQs" and "Final Project Ideas", discussions within these topics are divided.
+Learners in the "Free" track only interact in discussions with other "Free"
+track learners, and learners in the "Certificate" track only interact in
+discussions with other "Certificate" learners.
 
 You also decide that content-specific discussion topics within the course
-should NOT be divided. Instead, because learners in each enrollment track are
-receiving different content, you decide to use the visibility settings at the
-component level to add discussion components that are available only to the
-group of learners who can access the accompanying content.
+should not be divided. Instead, because learners in each enrollment track are
+receiving different content, you will use the visibility settings at the
+component level to make each discussion component available only to the group
+of learners who can access the accompanying content.
+
+You implement your decisions by completing the following tasks.
 
 In the **Discussions** tab on the instructor dashboard in the LMS, you specify
 that you want to use enrollment tracks as the group type for dividing
@@ -113,9 +117,17 @@ unselected, then click **Save** for that section.
 Under **Content-Specific Discussion Topics** you select **Divide selected
 content-specific discussion topics**, but do not select any discussion topics.
 
-In Studio, for each
+In Studio, in each unit where you have created differentiated content for
+learners in each enrollment track, you add two discussion components. You give
+each discussion component an appropriate display name, and use the visibility
+settings to make one available only to learners in the "Free" enrollment
+track, and the other available only to learners in the "Certificate"
+enrollment track.
 
-
+You test the course to make sure that learners in each track see the intended
+content, using the "View As" options in the LMS to view the content first as a
+learner in the "Free" enrollment track and then as a learner in the
+"Certificate" enrollment track.
 
 
 ******************************
