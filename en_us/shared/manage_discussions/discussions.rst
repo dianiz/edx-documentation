@@ -40,9 +40,11 @@ sections.
    information about the differences between discussions on the edx.org site
    and in the mobile app, see :ref:`Discussions on Mobile Apps`.
 
-For information about how using cohorts in your course affects how your course
-team might moderate course discussions, see :ref:`Moderating Discussions for
-Cohorts`.
+For information about creating discussions in which learners in a group such as
+a cohort or in a particular enrollment track only interact with posts from other
+learners in the same group, see :ref:`About Divided Discussions`. For
+information about moderating course discussions that are divided, see
+:ref:`Moderating Discussions for Cohorts`.
 
 .. _Overview_discussions:
 
