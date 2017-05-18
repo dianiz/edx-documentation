@@ -5,8 +5,9 @@
 Setting up Discussions in Courses with Cohorts
 ######################################################
 
-In courses that use cohorts, you can create discussion topics that are either
-divided based on cohort, or unified and available to all learners.
+In courses that use cohorts, in addition to the default discussion topics that
+are shared by all learners, you can create divided discussion topics, within
+which learners interact only with other members of their cohort.
 
 For information about divided discussions, see :ref:`About Divided
 Discussions`.

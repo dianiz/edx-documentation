@@ -28,30 +28,34 @@ responses, and comments within these topics are divided so that learners
 participate in the discussion only with other members of the same group
 (either the same cohort or the same enrollment track).
 
-For example, you have two enrollment tracks in your course ("Audit" and
-"Verified"). If you choose to divide discussions based on enrollment track
+.. note:: You can choose only one group type by which to divide discussions,
+   even if your course uses cohorts and also has multiple enrollment tracks.
+
+For example, you have two enrollment tracks in your course ("Free" and
+"Certificate"). If you choose to divide discussions based on enrollment track
 groups, and specify that a course-wide discussion topic called "Assignments"
-is divided, then although all learners see the topic, learners in the "Audit"
+is divided, then although all learners see the topic, learners in the "Free"
 track interact only with posts, responses, and comments from other learners in
-the "Audit" track, and learners in the "Verified" track interact only with
-posts, responses, and comments from learners in the "Verified" track.
+the "Free" track, and learners in the "Certificate" track interact only with
+posts, responses, and comments from learners in the "Certificate" track.
 
 Discussion topics that are not divided are unified, meaning that all learners
 in the course can see and respond to posts, responses, and comments from any
 other learner in the course.
 
 If you divide discussions, a good practice is to also apply a naming
-convention so that learners know the audience for the discussion topics before
-they add any posts. For information about naming conventions, see :ref:`Apply
-Naming Conventions to Discussion Topics`.
+convention so that learners clearly see the audience for the discussion topics
+before they add posts to that topic. For information about naming conventions,
+see :ref:`Apply Naming Conventions to Discussion Topics`.
 
-..note::  Another method of providing segregated discussion experiences for
-  learners in your course is to use the visibility settings of discussion
-  components, instead of dividing discussions that all learners share access
-  to. You can add multiple discussion components and use visibility settings
-  to make each discussion component visible only to a specific group of
-  learners. With this method, you are not limited to choosing which single
-  group type by which to group discussions. For more information, see XXXXXX
+.. note:: Another method of providing segregated discussion experiences for
+learners in your course is to use the access settings of discussion
+components, instead of dividing discussion topics that all learners share
+access to. You can add multiple discussion components and use each component's
+access  settings to restrict access to each discussion component to a specific
+group of learners. With this method, you are not limited to choosing the same
+single group type by which to divide discussions. For more information, see
+XXXXXX
 
 
 .. _Example Dividing Discussion Topics Based on Enrollment Track:
@@ -62,15 +66,20 @@ Example: Dividing Discussion Topics Based on Enrollment Track
 
 In this example, you are developing a course that has two enrollment tracks:
 "Free" and "Certificate". You plan to create differentiated content based on
-enrollment track, so that learners in each track will have a complete course
-experience, but with different assignments and projects.
+enrollment track, so that learners in each track have a complete course
+experience, but have different assignments and projects.
 
-You will need to decide whether some or all of course-wide discussion topics
-and content-specific discussion topics are divided based on enrollment track.
+You will need to decide whether any of the course-wide discussion topics and
+content-specific discussion topics should be divided based on enrollment
+track.
 
-As you develop your course, you add three new course-wide discussion topics, so
-that in addition to the system-supplied General topic, you have a total of
-four course-wide discussion topics.
+=============================
+Course-Wide Discussion Topics
+=============================
+
+As you develop your course, you add three new course-wide discussion topics,
+so that in addition to the default General topic, you have a total of four
+course-wide discussion topics.
 
 * General
 * Course Announcements
@@ -94,39 +103,49 @@ Learners in the "Free" track only interact in discussions with other "Free"
 track learners, and learners in the "Certificate" track only interact in
 discussions with other "Certificate" learners.
 
-You also decide that content-specific discussion topics within the course
-should not be divided. Instead, because learners in each enrollment track are
-receiving different content, you will use the visibility settings at the
-component level to make each discussion component available only to the group
-of learners who can access the accompanying content.
+==================================
+Content-Specific Discussion Topics
+==================================
+
+You decide that content-specific discussion topics within the course should
+not be divided. Instead, because learners in each enrollment track are
+receiving different content, you will use the access settings at the component
+level to restrict access to each discussion component to the group of learners
+who can access the accompanying content.
+
+==================================
+Implementation
+==================================
 
 You implement your decisions by completing the following tasks.
 
-In the **Discussions** tab on the instructor dashboard in the LMS, you specify
-that you want to use enrollment tracks as the group type for dividing
-discussions.
+* In the **Discussions** tab on the instructor dashboard in the LMS, you specify
+  that you want to use enrollment tracks as the group type for dividing
+  discussions.
 
-After you make your group type selection, lists of the course-wide and
-content-specific discussion topics appear on the **Discussions** page.
+* After you make your group type selection, lists of the course-wide and
+  content-specific discussion topics appear on the **Discussions** page.
 
-Under **Course-Wide Discussion Topics** you select the checkboxes next to the
-"Assignment FAQs" and "Final Project Ideas" topics, and leave the others
-unselected, then click **Save** for that section.
+* Under **Course-Wide Discussion Topics** you select the checkboxes next to the
+  "Assignment FAQs" and "Final Project Ideas" topics, and leave the others
+  unselected, then click **Save** or that section.
 
-Under **Content-Specific Discussion Topics** you select **Divide selected
-content-specific discussion topics**, but do not select any discussion topics.
+* Under **Content-Specific Discussion Topics** you select **Divide selected
+  content-specific discussion topics**, but do not select any discussion
+  topics.
 
-In Studio, in each unit where you have created differentiated content for
-learners in each enrollment track, you add two discussion components. You use
-the visibility settings to make one available only to learners in the "Free"
-enrollment track, and the other available only to learners in the
-"Certificate" enrollment track.
+* In Studio, in each unit where you have created differentiated content for
+  learners in each enrollment track, you add two discussion components. You
+  use the component access settings to make one component available only to
+  learners in the "Free" enrollment track, and the other component available
+  only to learners in the "Certificate" enrollment track.
 
-You test the course to make sure that learners in each track see the intended
-content, using the "View As" options in the LMS to view the content first as a
-learner in the "Free" enrollment track and then as a learner in the
-"Certificate" enrollment track.
+* You test the course to make sure that learners in each track see the
+  intended content, using the "View As" options in the LMS to view the content
+  first as a learner in the "Free" enrollment track and then as a learner in
+  the "Certificate" enrollment track.
 
+.. _Setting Up Divided Discussions:
 
 ******************************
 Setting Up Divided Discussions
@@ -136,7 +155,7 @@ In courses where either cohorts or multiple enrollment tracks are enabled, you
 see options to divide discussion topics based on the available group types.
 
 .. note:: You can choose only one group type by which to divide discussions,
-   even if your course both uses cohorts and has multiple enrollment tracks.
+   even if your course uses cohorts and also has multiple enrollment tracks.
 
 The group type that you choose for dividing discussions is used to divide all
 discussion topics in the course, both course-wide and content-specific.

@@ -17,6 +17,8 @@ For information about divided discussions, see :ref:`About Divided Discussions`.
 Overview
 *********
 
+In discussions
+
 In courses where either cohorts or multiple enrollment tracks are enabled,
 every post has an indicator of who can read it: either all learners, or only
 the members of a particular group. For learners, this is the only noticeable
