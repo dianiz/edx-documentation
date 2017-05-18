@@ -1,4 +1,4 @@
-.. _Moderating Divided Discussion Topics:
+.. _Managing Divided Discussion Topics:
 
 ###################################
 Managing Divided Discussion Topics
@@ -181,7 +181,7 @@ unintentionally share information with a different audience than you intended.
  they post in. See :ref:`Finding Out Who Can See a Post`.
 
 Posts that discussion team members add to unified discussion topics are always
-visible to all students, regardless of what group they belong to.
+visible to all learners, regardless of what group they belong to.
 
 .. _Considerations When Editing Posts:
 

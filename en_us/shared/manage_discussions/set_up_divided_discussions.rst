@@ -1,4 +1,3 @@
-
 .. _About Divided Discussions:
 
 ###################################

@@ -570,6 +570,11 @@ team and other members of the course team.
 For information on setting up moderators for your course, see
 :ref:`Assigning_discussion_roles`.
 
+For information about best practices for moderating discussions, see
+:ref:`Guidance for Discussion Moderators`. If you are using :ref:`divided
+discussions`<About Divided Discussions>`, see :ref:`Managing Divided Discussion
+Topics`.
+
 ====================================================
 View Profile Information for Discussion Participants
 ====================================================
