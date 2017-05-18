@@ -13,4 +13,5 @@ learner groups, and moderating discussions.
 
    discussions
    set_up_divided_discussions
+   manage_divided_discussions
    discussion_guidance_moderators
